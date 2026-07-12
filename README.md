@@ -31,8 +31,12 @@
 <div align="center">
 
   <img src="https://github.com/malikrajat/rm-pushnotify/blob/main/assets/demo.png" alt="rm-pushnotify Demo" width="800"/>
-  <img src="https://github.com/malikrajat/rm-pushnotify/blob/main/assets/demo.jpg" alt="rm-pushnotify Demo" width="800"/>
-  
+
+  <br/>
+
+  <img src="https://github.com/malikrajat/rm-pushnotify/blob/main/assets/demo-1.png" alt="rm-pushnotify Demo" width="800"/>
+
+
 
 </div>
 
