@@ -873,8 +873,8 @@ Special thanks to:
 ### All Packages
 
 Browse all my packages:
-- [npm: @codewithrajat](https://www.npmjs.com/settings/codewithrajat/packages)
-- [npm: rajatmalik](https://www.npmjs.com/settings/rajatmalik/packages)
+- [npm: @codewithrajat](https://www.npmjs.com/~codewithrajat)
+- [npm: rajatmalik](https://www.npmjs.com/~rajatmalik)
 - [GitHub: @malikrajat](https://github.com/malikrajat?tab=repositories)
 
 ---
@@ -895,16 +895,16 @@ Author of 10+ open-source libraries and 100+ technical articles, driving innovat
 - npm:        [rajatmalik](https://www.npmjs.com/~rajatmalik)
 
 ### SOCIAL PRESENCE
-- Threads:    [Threads: rajatmalik](https://www.threads.net/@er.rajatmalik)
-- Twitter/X:  [Twitter/X: rajatmalik](https://twitter.com/er_rajatmalik)
-- BlueSky:    [BlueSky: rajatmalik](http://devrajat.bsky.social)
+- Threads:    [rajatmalik](https://www.threads.net/@er.rajatmalik)
+- Twitter/X:  [rajatmalik](https://x.com/er_rajatmalik)
+- BlueSky:    [rajatmalik](http://devrajat.bsky.social)
 
 ### CONTENT & WRITING
 
-- Medium:    [Medium: rajatmalik]( https://medium.com/@codewithrajat)
-- Dev.to:    [Dev.to: rajatmalik]( https://dev.to/codewithrajat)
-- Substack:   [Substack: rajatmalik](https://codewithrajat.substack.com)
-- Hashnode:   [Hashnode: rajatmalik](https://hashnode.com/@codeswithrajat)
+- Medium:    [rajatmalik]( https://medium.com/@codewithrajat)
+- Dev.to:    [rajatmalik]( https://dev.to/codewithrajat)
+- Substack:  [rajatmalik](https://codewithrajat.substack.com)
+- Hashnode:  [rajatmalik](https://hashnode.com/@codeswithrajat)
 
 ---
 
