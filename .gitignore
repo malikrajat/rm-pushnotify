@@ -45,3 +45,5 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+.pnpm-store/*
+rm-pushnotify-2.0.0.tgz

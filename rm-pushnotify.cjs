@@ -1,3 +1,7 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
 // src/pushNotification.js
 class PushNotification {
     static instance;
@@ -68,5 +72,6 @@ class PushNotification {
 
 // src/index.js
 
-export { PushNotification, PushNotification as default };
-//# sourceMappingURL=rm-pushnotify.esm.js.map
+exports.PushNotification = PushNotification;
+exports["default"] = PushNotification;
+//# sourceMappingURL=rm-pushnotify.cjs.map
