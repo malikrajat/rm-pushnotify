@@ -1,0 +1,160 @@
+{
+  "name": "rm-pushnotify",
+  "version": "2.0.0",
+  "description": "Lightweight, zero-dependency library for handling Web Push notifications and service workers in PWAs and modern web apps. Easy registration, subscription, and notification management with full TypeScript support.",
+  "main": "./dist/rm-pushnotify.cjs",
+  "module": "./dist/rm-pushnotify.esm.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/rm-pushnotify.esm.js",
+      "require": "./dist/rm-pushnotify.cjs"
+    }
+  },
+  "type": "module",
+  "keywords": [
+    "push",
+    "notifications",
+    "service worker",
+    "web push",
+    "push api",
+    "web notifications",
+    "notifications api",
+    "pwa",
+    "progressive web app",
+    "progressive web application",
+    "push notification",
+    "web-push",
+    "browser notifications",
+    "browser notification",
+    "push subscription",
+    "service worker api",
+    "service-worker",
+    "background sync",
+    "offline notifications",
+    "offline-first",
+    "typescript",
+    "frontend",
+    "front-end",
+    "web development",
+    "javascript",
+    "web app",
+    "web application",
+    "pushnotifications",
+    "sw-push",
+    "client-side push",
+    "server push",
+    "fcm",
+    "firebase cloud messaging",
+    "vapid",
+    "vapid keys",
+    "web-push-protocol",
+    "subscribe",
+    "subscription",
+    "notification permission",
+    "push manager",
+    "pushmanager",
+    "worker",
+    "sw",
+    "esm",
+    "module",
+    "event-driven",
+    "real-time",
+    "realtime",
+    "messaging",
+    "alerts",
+    "toast",
+    "caching",
+    "offline",
+    "mobile web",
+    "cross-browser",
+    "w3c push",
+    "spush",
+    "notify",
+    "notify users",
+    "pushnotif",
+    "webpush",
+    "push-js",
+    "sw-notification",
+    "serviceworker notifications",
+    "client push",
+    "browser push",
+    "headless notifications",
+    "lightweight",
+    "zero-dependency",
+    "simple push",
+    "easy push"
+  ],
+  "scripts": {
+    "build": "rollup -c && node copy-extra-files.js",
+    "clean": "node -e \"require('fs').rmSync('dist', { recursive: true, force: true })\"",
+    "build:prod": "npm run clean && rollup -c --environment BUILD:production && node copy-extra-files.js",
+    "test": "node --test test/*.test.js",
+    "prepack": "npm run build:prod"
+  },
+  "homepage": "https://github.com/malikrajat/rm-pushnotify#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malikrajat/rm-pushnotify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/malikrajat/rm-pushnotify/issues",
+    "email": "mr.rajatmalik@gmail.com"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "rollup": "^2.79.2",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "author": {
+    "name": "Rajat Malik",
+    "email": "mr.rajatmalik@gmail.com",
+    "url": "https://www.rajatmalik.dev/"
+  },
+  "contributors": [
+    {
+      "name": "Rajat Malik",
+      "email": "mr.rajatmalik@gmail.com"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Rajat Malik",
+      "email": "mr.rajatmalik@gmail.com"
+    }
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/malikrajat"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "packageManager": "pnpm@10.11.1",
+  "license": "MIT",
+  "sideEffects": false,
+  "private": false,
+  "preferGlobal": false,
+  "readme": "README.md"
+}
