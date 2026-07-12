@@ -1,0 +1,4 @@
+/node_module
+/lib
+node_module
+rm-pushnotify-*.tgz
