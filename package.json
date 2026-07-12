@@ -1,15 +1,15 @@
 {
   "name": "rm-pushnotify",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Lightweight, zero-dependency library for handling Web Push notifications and service workers in PWAs and modern web apps. Easy registration, subscription, and notification management with full TypeScript support.",
-  "main": "./dist/rm-pushnotify.cjs",
-  "module": "./dist/rm-pushnotify.esm.js",
-  "types": "./dist/index.d.ts",
+  "main": "./rm-pushnotify.cjs",
+  "module": "./rm-pushnotify.esm.js",
+  "types": "./index.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/rm-pushnotify.esm.js",
-      "require": "./dist/rm-pushnotify.cjs"
+      "types": "./index.d.ts",
+      "import": "./rm-pushnotify.esm.js",
+      "require": "./rm-pushnotify.cjs"
     }
   },
   "type": "module",
