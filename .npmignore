@@ -1,4 +1,16 @@
 /node_module
 /lib
 node_module
-rm-pushnotify-*.tgz
+
+images/
+styles/
+*.png
+*.jpg
+*.svg
+assets/
+docs/
+examples/
+CHANGELOG.md
+LICENSE
+.gitignore
+.idea/
