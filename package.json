@@ -90,8 +90,7 @@
     "build": "rollup -c && node copy-extra-files.js",
     "clean": "node -e \"require('fs').rmSync('dist', { recursive: true, force: true })\"",
     "build:prod": "npm run clean && rollup -c --environment BUILD:production && node copy-extra-files.js",
-    "test": "node --test test/*.test.js",
-    "prepack": "npm run build:prod"
+    "test": "node --test test/*.test.js"
   },
   "homepage": "https://github.com/malikrajat/rm-pushnotify#readme",
   "repository": {
@@ -134,10 +133,6 @@
     "type": "individual",
     "url": "https://github.com/sponsors/malikrajat"
   },
-  "files": [
-    "dist/**/*",
-    "README.md"
-  ],
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=8.0.0"
